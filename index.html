@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PackBack | Return. Reuse. Reward.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="brand">
+      <img src="assets/packback-logo.jpeg" alt="PackBack logo">
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#how">How It Works</a>
+      <a href="#business">For Restaurants</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#impact">Impact</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="nav-btn">Get Started</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <span class="badge">♻️ Reusable packaging for a cleaner future</span>
+        <h1>Pack it. <span>Use it.</span><br>Bring it back.</h1>
+        <p>
+          PackBack replaces single-use takeaway packaging with durable,
+          reusable containers that customers can return, refund and reward.
+        </p>
+        <div class="hero-buttons">
+          <a href="#how" class="btn primary">See How It Works →</a>
+          <a href="#business" class="btn secondary">For Businesses</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>♻️</strong><span>Reusable system</span></div>
+          <div><strong>QR</strong><span>Smart tracking</span></div>
+          <div><strong>★</strong><span>Customer rewards</span></div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="assets/packback-logo.jpeg" alt="PackBack reusable packaging logo">
+        <div class="cycle">
+          <div>1<br><small>Order</small></div>
+          <div>2<br><small>Eat</small></div>
+          <div>3<br><small>Return</small></div>
+          <div>4<br><small>Reward</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem">
+      <div>
+        <span class="section-label">THE PROBLEM</span>
+        <h2>Takeaway shouldn't mean throwaway.</h2>
+      </div>
+      <p>
+        Single-use food containers are used for minutes but create waste long after
+        the meal is over. Restaurants repeatedly buy disposable packaging, while
+        customers have few convenient alternatives.
+      </p>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <span class="section-label">OUR SOLUTION</span>
+        <h2>A simple reusable packaging network.</h2>
+        <p>PackBack makes sustainable takeaway convenient for both restaurants and customers.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="icon">🥡</div>
+          <h3>Reusable Containers</h3>
+          <p>Durable food containers designed for multiple reuse cycles.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🔗</div>
+          <h3>QR Tracking</h3>
+          <p>Every container can be tracked through a unique QR code.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">📍</div>
+          <h3>Easy Returns</h3>
+          <p>Return containers at participating restaurants or smart kiosks.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🎁</div>
+          <h3>Rewards</h3>
+          <p>Get your refundable deposit back and earn reward points.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section light">
+      <div class="section-heading">
+        <span class="section-label">HOW IT WORKS</span>
+        <h2>Four steps. One better habit.</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step"><span>01</span><div>🛍️</div><h3>Order</h3><p>Receive your takeaway in a PackBack container.</p></div>
+        <div class="step"><span>02</span><div>🍴</div><h3>Eat</h3><p>Enjoy your meal just like normal.</p></div>
+        <div class="step"><span>03</span><div>📍</div><h3>Return</h3><p>Return the container to a partner location or kiosk.</p></div>
+        <div class="step"><span>04</span><div>🎉</div><h3>Reward</h3><p>Get your deposit back and earn reward points.</p></div>
+      </div>
+    </section>
+
+    <section id="business" class="business-section">
+      <div class="business-content">
+        <span class="section-label">FOR RESTAURANTS</span>
+        <h2>Make your packaging part of the solution.</h2>
+        <p>
+          Join PackBack to reduce disposable packaging, improve your sustainability
+          image and build a convenient return system for your customers.
+        </p>
+        <ul>
+          <li>✓ Flexible monthly subscription</li>
+          <li>✓ Container rental and purchase options</li>
+          <li>✓ QR-based tracking dashboard</li>
+          <li>✓ Monthly sustainability reports</li>
+        </ul>
+        <a href="#contact" class="btn primary">Become a Partner →</a>
+      </div>
+      <div class="business-card">
+        <div class="dashboard-top"><span>PACKBACK DASHBOARD</span><span>● LIVE</span></div>
+        <div class="dashboard-number">12,480</div>
+        <p>containers in circulation</p>
+        <div class="bar"><span></span></div>
+        <div class="dashboard-row"><span>Containers returned</span><strong>94%</strong></div>
+        <div class="dashboard-row"><span>Estimated waste avoided</span><strong>1.8 t</strong></div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="section-heading">
+        <span class="section-label">PRICING</span>
+        <h2>Start small. Scale sustainably.</h2>
+        <p>Simple plans designed for restaurants and growing food businesses.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Starter</h3>
+          <p>For small cafés</p>
+          <div class="price">₹2,999<span>/month</span></div>
+          <ul>
+            <li>✓ Basic container tracking</li>
+            <li>✓ Restaurant dashboard</li>
+            <li>✓ Monthly report</li>
+            <li>✓ Support</li>
+          </ul>
+          <a href="#contact" class="btn secondary full">Choose Starter</a>
+        </article>
+
+        <article class="price-card popular">
+          <span class="popular-tag">MOST POPULAR</span>
+          <h3>Growth</h3>
+          <p>For busy restaurants</p>
+          <div class="price">Custom<span> pricing</span></div>
+          <ul>
+            <li>✓ Everything in Starter</li>
+            <li>✓ Container rental options</li>
+            <li>✓ Advanced analytics</li>
+            <li>✓ Priority support</li>
+          </ul>
+          <a href="#contact" class="btn primary full">Talk to Us</a>
+        </article>
+
+        <article class="price-card">
+          <h3>Enterprise</h3>
+          <p>For chains & institutions</p>
+          <div class="price">Custom<span> pricing</span></div>
+          <ul>
+            <li>✓ Multi-location dashboard</li>
+            <li>✓ Smart kiosk integration</li>
+            <li>✓ Sustainability analytics</li>
+            <li>✓ Dedicated support</li>
+          </ul>
+          <a href="#contact" class="btn secondary full">Contact Sales</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="impact" class="impact">
+      <div class="section-heading">
+        <span class="section-label">OUR IMPACT</span>
+        <h2>Every return counts.</h2>
+        <p>Imagine the impact when reusable packaging becomes the normal choice.</p>
+      </div>
+      <div class="counter-grid">
+        <div><strong data-target="1000000">0</strong><span>Containers reused</span></div>
+        <div><strong data-target="50">0</strong><span>Tons of plastic saved</span></div>
+        <div><strong data-target="500">0</strong><span>Partner locations</span></div>
+        <div><strong data-target="10000">0</strong><span>Happy customers</span></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="section-heading">
+        <span class="section-label">FAQ</span>
+        <h2>Questions? We've got answers.</h2>
+      </div>
+
+      <div class="faq">
+        <button class="faq-question">Why would customers return containers? <span>+</span></button>
+        <div class="faq-answer">Customers receive their refundable deposit back plus reward points that can be redeemed for discounts.</div>
+
+        <button class="faq-question">How are containers cleaned? <span>+</span></button>
+        <div class="faq-answer">Returned containers are collected, professionally washed, sanitized using food-grade standards, inspected and redistributed.</div>
+
+        <button class="faq-question">What if a container is lost? <span>+</span></button>
+        <div class="faq-answer">The refundable deposit covers part of the replacement cost, and restaurants can order replacements through the platform.</div>
+
+        <button class="faq-question">Why should restaurants join? <span>+</span></button>
+        <div class="faq-answer">Restaurants can reduce long-term packaging costs, strengthen their eco-friendly brand image and attract environmentally conscious customers.</div>
+
+        <button class="faq-question">Is PackBack scalable? <span>+</span></button>
+        <div class="faq-answer">Yes. The model can expand city by city through partnerships with restaurant chains, campuses and food delivery platforms.</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div>
+        <span class="section-label">GET IN TOUCH</span>
+        <h2>Ready to bring packaging back?</h2>
+        <p>Become a restaurant partner, ask a question or tell us about your business.</p>
+      </div>
+      <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Email address" required>
+        <input type="text" placeholder="Restaurant / business name">
+        <textarea placeholder="How can we help?" rows="4" required></textarea>
+        <button class="btn primary" type="submit">Send Message →</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <img src="assets/packback-logo.jpeg" alt="PackBack">
+      <p>Return. Reuse. Reward.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="#about">About</a>
+      <a href="#impact">Impact</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div>
+      <h4>Business</h4>
+      <a href="#business">For Restaurants</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <div class="copyright">© 2026 PackBack. Pack it. Use it. Bring it back.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
